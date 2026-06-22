@@ -58,7 +58,7 @@ The primary objective of this work was to evaluate the effectiveness of Artifici
 
 ![Detection Performance Across Different SNR Levels](Figures/Detection_vs_snr.jpg)
 
-In addition to the ANN evaluation, the impact of receiver diversity was investigated using **2, 4, and 8 synchronized antennas**. At **-15 dB**, the probability of detection improved from approximately **65% with 2 antennas** to **77% with 4 antennas**, reaching approximately **81% with 8 antennas**.
+In addition to the ANN evaluation, the impact of receiver diversity was investigated using **2, 4, and 8 synchronized antennas**. At **-15 dB**, the probability of detection improved from approximately **66% with 2 antennas** to **77% with 4 antennas**, reaching approximately **81% with 8 antennas**.
 
 ### Impact of Receiver Diversity
 
