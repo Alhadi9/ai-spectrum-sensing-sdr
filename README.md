@@ -52,13 +52,13 @@ The model was trained and evaluated using experimentally collected datasets from
 
 ## Results
 
-The primary objective of this work was to evaluate the effectiveness of Artificial Neural Networks (ANNs) for spectrum sensing under challenging low-SNR conditions. The proposed framework achieved probabilities of detection of **88.6% at -11 dB**, **80.9% at -13 dB**, and **63.3% at -15 dB**, demonstrating reliable performance even in highly noisy environments.
+The primary objective of this work was to evaluate the effectiveness of Artificial Neural Networks (ANNs) for spectrum sensing under challenging low-SNR conditions. The proposed framework achieved probabilities of detection of approximately **87.6% at -11 dB**, **77% at -13 dB**, and **68% at -15 dB**, demonstrating reliable performance even in highly noisy environments.
 
 ### Detection Performance Across Different SNR Levels
 
 ![Detection Performance Across Different SNR Levels](Figures/Detection_vs_snr.jpg)
 
-In addition to the ANN evaluation, the impact of receiver diversity was investigated using **2, 4, and 8 synchronized antennas**. At **-15 dB**, the probability of detection improved from approximately **64% with 2 antennas** to **77% with 4 antennas**, reaching approximately **81% with 8 antennas**.
+In addition to the ANN evaluation, the impact of receiver diversity was investigated using **2, 4, and 8 synchronized antennas**. At **-15 dB**, the probability of detection improved from approximately **65% with 2 antennas** to **77% with 4 antennas**, reaching approximately **81% with 8 antennas**.
 
 ### Impact of Receiver Diversity
 
