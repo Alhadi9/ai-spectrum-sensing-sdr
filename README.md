@@ -96,9 +96,9 @@ These results demonstrate that combining machine learning with synchronized mult
 
 ## Documentation
 
-The complete internship report is available in:
+The complete research internship report is available in:
 
-`Internship_Report.pdf`
+**Internship_Report.pdf**
 
 The report provides detailed information regarding the experimental platform, feature extraction process, ANN architecture, methodology, and performance evaluation.
 
