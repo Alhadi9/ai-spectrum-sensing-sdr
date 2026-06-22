@@ -33,7 +33,7 @@ The hardware platform consists of:
 The multi-receiver architecture was designed to improve signal detection performance in low-SNR scenarios through spatial diversity.
 
 ---
-
+![System Architecture](Figures/System_architecture.jpg)
 ## Methodology
 
 Received RF signals are processed to extract two sensing features:
@@ -54,7 +54,15 @@ The model was trained and evaluated using experimentally collected datasets from
 
 The primary objective of this work was to evaluate the effectiveness of Artificial Neural Networks (ANNs) for spectrum sensing under challenging low-SNR conditions. The proposed framework achieved probabilities of detection of **88.6% at -11 dB**, **80.9% at -13 dB**, and **63.3% at -15 dB**, demonstrating reliable performance even in highly noisy environments.
 
+### Detection Performance Across Different SNR Levels
+
+![Detection Performance Across Different SNR Levels](Figures/Detection_vs_snr.jpg)
+
 In addition to the ANN evaluation, the impact of receiver diversity was investigated using **2, 4, and 8 synchronized antennas**. At **-15 dB**, the probability of detection improved from approximately **64% with 2 antennas** to **77% with 4 antennas**, reaching approximately **81% with 8 antennas**.
+
+### Impact of Receiver Diversity
+
+![Impact of Receiver Diversity](Figures/Detection_vs_antennas.jpg)
 
 These results demonstrate that combining machine learning with synchronized multi-receiver SDR architectures can significantly enhance spectrum sensing reliability in challenging wireless environments.
 
@@ -76,12 +84,12 @@ These results demonstrate that combining machine learning with synchronized mult
 ## Repository Contents
 
 ```text
-├── Internship_Report.pdf
 ├── Figures/
+│   ├── System_architecture.jpg
+│   ├── Detection_vs_snr.jpg
+│   └── Detection_vs_antennas.jpg
+├── Internship_Report.pdf
 └── README.md
-```
-
----
 
 ## Documentation
 
