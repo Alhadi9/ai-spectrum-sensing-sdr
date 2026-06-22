@@ -56,7 +56,9 @@ The proposed ANN-based spectrum sensing framework was experimentally validated u
 
 The model achieved strong detection performance across multiple signal-to-noise ratios, reaching probabilities of detection of **88.6% at -11 dB**, **80.9% at -13 dB**, and **63.3% at -15 dB**.
 
-Beyond evaluating the neural network itself, this work investigated the impact of receiver diversity on spectrum sensing performance. Experiments conducted with **2, 4, and 8 synchronized receiving antennas** demonstrated a consistent improvement in detection capability as the number of receivers increased.
+The primary objective of this work was to evaluate the effectiveness of Artificial Neural Networks for spectrum sensing under challenging low-SNR conditions. Experimental results demonstrated reliable detection performance, achieving probabilities of detection of 88.6% at -11 dB, 80.9% at -13 dB, and 63.3% at -15 dB.
+
+In addition to the ANN evaluation, the impact of receiver diversity was investigated using multiple synchronized SDR receivers. Experiments conducted with 2, 4, and 8 antennas showed that increasing the number of receivers further improved detection performance, reaching approximately 81% probability of detection at -15 dB when using 8 synchronized antennas.
 
 At an SNR of **-15 dB**, the probability of detection improved from approximately **64% with 2 antennas** to **77% with 4 antennas**, and further increased to approximately **81% using 8 antennas**.
 
