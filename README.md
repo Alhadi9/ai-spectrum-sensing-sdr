@@ -90,7 +90,10 @@ These results demonstrate that combining machine learning with synchronized mult
 │   └── Detection_vs_antennas.jpg
 ├── Internship_Report.pdf
 └── README.md
+```
+
 ---
+
 ## Documentation
 
 The complete internship report is available in:
