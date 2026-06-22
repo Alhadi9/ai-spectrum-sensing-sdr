@@ -52,17 +52,11 @@ The model was trained and evaluated using experimentally collected datasets from
 
 ## Results
 
-The proposed ANN-based spectrum sensing framework was experimentally validated using a synchronized multi-receiver SDR platform operating under challenging low-SNR conditions.
+The primary objective of this work was to evaluate the effectiveness of Artificial Neural Networks (ANNs) for spectrum sensing under challenging low-SNR conditions. The proposed framework achieved probabilities of detection of **88.6% at -11 dB**, **80.9% at -13 dB**, and **63.3% at -15 dB**, demonstrating reliable performance even in highly noisy environments.
 
-The model achieved strong detection performance across multiple signal-to-noise ratios, reaching probabilities of detection of **88.6% at -11 dB**, **80.9% at -13 dB**, and **63.3% at -15 dB**.
+In addition to the ANN evaluation, the impact of receiver diversity was investigated using **2, 4, and 8 synchronized antennas**. At **-15 dB**, the probability of detection improved from approximately **64% with 2 antennas** to **77% with 4 antennas**, reaching approximately **81% with 8 antennas**.
 
-The primary objective of this work was to evaluate the effectiveness of Artificial Neural Networks for spectrum sensing under challenging low-SNR conditions. Experimental results demonstrated reliable detection performance, achieving probabilities of detection of 88.6% at -11 dB, 80.9% at -13 dB, and 63.3% at -15 dB.
-
-In addition to the ANN evaluation, the impact of receiver diversity was investigated using multiple synchronized SDR receivers. Experiments conducted with 2, 4, and 8 antennas showed that increasing the number of receivers further improved detection performance, reaching approximately 81% probability of detection at -15 dB when using 8 synchronized antennas.
-
-At an SNR of **-15 dB**, the probability of detection improved from approximately **64% with 2 antennas** to **77% with 4 antennas**, and further increased to approximately **81% using 8 antennas**.
-
-These results demonstrate that combining machine learning with multi-receiver SDR architectures significantly enhances spectrum sensing reliability in noisy environments. The observed performance gains highlight the benefits of spatial diversity and confirm the effectiveness of the proposed approach for real-world cognitive radio applications.
+These results demonstrate that combining machine learning with synchronized multi-receiver SDR architectures can significantly enhance spectrum sensing reliability in challenging wireless environments.
 
 ---
 
